@@ -1,0 +1,168 @@
+/* ==========================================================================
+   STYLE TEAL MODERN (ELEGAN, RAPI, & TIDAK SAMA PERSIS)
+   ========================================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+/* Banner Atas (Tema Teal Modern) */
+.header-banner {
+    background-color: #14b8a6; /* Warna Teal */
+    color: white;
+    padding: 25px 40px;
+    border-bottom: 4px solid #0f766e; /* Teal Gelap */
+}
+
+.header-banner h1 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.header-banner p {
+    font-size: 13px;
+    opacity: 0.9;
+    margin-top: 4px;
+}
+
+/* Navigasi Menu */
+.nav-menu {
+    background-color: #0f766e; /* Teal Gelap */
+    padding: 12px 40px;
+    margin-bottom: 30px;
+}
+
+.nav-menu a {
+    color: #ccfbf1;
+    text-decoration: none;
+    margin-right: 25px;
+    font-weight: 500;
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+.nav-menu a:hover {
+    color: white;
+}
+
+/* Container Konten Utama */
+.container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.04);
+    max-width: 1000px;
+    margin: 0 auto 40px auto;
+}
+
+/* Judul Selamat Datang & Kotak Info */
+.container h2 {
+    color: #0f766e;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.total-info {
+    background-color: #f0fdfa; /* Background Teal Muda */
+    border-left: 4px solid #14b8a6;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+}
+
+.total-info p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+/* Tombol Tambah Tugas */
+.btn-tambah {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #14b8a6;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 20px;
+    transition: background 0.2s;
+}
+
+.btn-tambah:hover {
+    background-color: #0d9488;
+}
+
+/* Tabel Data */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 5px;
+}
+
+th, td {
+    padding: 14px 16px;
+    text-align: left;
+    font-size: 14px;
+}
+
+th {
+    background-color: #f8fafc;
+    color: #475569;
+    font-weight: 600;
+    border-bottom: 2px solid #e2e8f0;
+}
+
+td {
+    border-bottom: 1px solid #f1f5f9;
+}
+
+tr:hover td {
+    background-color: #f8fafc;
+}
+
+/* Badge Status Bulat (Pill) */
+.badge {
+    padding: 4px 12px;
+    border-radius: 50px;
+    font-size: 11px;
+    font-weight: 600;
+    color: white;
+    display: inline-block;
+}
+
+.status-selesai { background-color: #10b981; } /* Hijau */
+.status-proses { background-color: #f59e0b; }   /* Oranye */
+.status-belum { background-color: #ef4444; }    /* Merah */
+
+/* Link Aksi (Edit & Hapus) */
+.btn-edit { color: #0284c7; text-decoration: none; font-weight: 600; }
+.btn-edit:hover { text-decoration: underline; }
+.btn-hapus { color: #ef4444; text-decoration: none; font-weight: 600; }
+.btn-hapus:hover { text-decoration: underline; }
+
+/* Form Styling (Tambah & Edit) */
+.form-group { margin-bottom: 18px; }
+.form-group label { display: block; font-weight: 600; font-size: 14px; margin-bottom: 6px; color: #475569; }
+input[type="text"], textarea, select {
+    width: 100%; padding: 10px 14px; border: 1px solid #cbd5e1; border-radius: 6px; font-size: 14px;
+}
+input[type="text"]:focus, textarea:focus, select:focus {
+    outline: none; border-color: #14b8a6; box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.1);
+}
+.btn-simpan {
+    padding: 10px 20px; background-color: #14b8a6; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: 600;
+}
+.btn-simpan:hover { background-color: #0d9488; }
